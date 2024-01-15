@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 40px;
+    border: 1px solid black;
+    background-color: rgb(59, 59, 59);
+    cursor: pointer;
+
+}
+
+input {
+
+    width: 315px;
+    margin-bottom: 10px;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+.first {
+    margin-bottom: 10px;
+
+}
+
+
+.second {
+    margin-bottom: 10px;
+
+}
+
+.third {
+    margin-bottom: 10px;
+}
+
+.fifth {
+    margin-top: 10px;
+}
+
+
+#subract,
+#multlipy,
+#divide,
+#addition {
+    background-color: rgb(231, 158, 22);
+}
+
+#subract:hover,
+#multlipy:hover,
+#divide:hover,
+#addition:hover {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#seven:hover,
+#eight:hover,
+#nine:hover,
+#zero:hover,
+#equalto:hover,
+#ac:hover,
+#percent:hover,
+#dot:hover,
+#ans:hover {
+    background-color: rgb(99, 97, 97);
+    color: white;
+}
+
+#ans {
+    font-size: 30px;
+    width: 230px;
+    border-radius: 50px;
+}

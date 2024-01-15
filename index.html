@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>CALCULATOR</title>
+</head>
+
+<body>
+
+    <input id="display" class="display" name="display">
+
+    <br>
+    <button class="first" id="percent" onclick="percent()">%</button>
+    <button class="first" id="ac" onclick="ac()">AC</button>
+    <button class="first" id="equalto" onclick="tzer()">00</button>
+    <button class="first" id="divide" onclick="div()">÷</button>
+    <br>
+
+    <button class="second" id="seven" onclick="yo()">7</button>
+    <button class="second" id="eight" onclick="eig()">8</button>
+    <button class="second" id="four" onclick="fou()">4</button>
+    <button class="second" id="multlipy" onclick="mul()">×</button>
+    <br>
+
+    <button class="third" id="five" onclick="fiv()">5</button>
+    <button class="third" id="six" onclick="six()">6</button>
+    <button class="third" id="one" onclick="one()">1</button>
+    <button class="third" id="subract" onclick="sub()">-</button>
+    <br>
+
+    <button class="fourth" id="two" onclick="two()">2</button>
+    <button class="fourth" id="three" onclick="thr()">3</button>
+    <button class="fourth" id="zero" onclick="zer()">0</button>
+    <button class="fourth" id="addition" onclick="plu()">+</button>
+
+    <br>
+    <button class="fifth" id="dot" onclick="dot()">.</button>
+    <button class="ans" id="ans" onclick="ans()">ANS</button>
+
+
+
+
+
+    <script>
+
+        let display = document.getElementById('display');
+
+        function yo() {
+          display.value += 7;
+        }
+        
+        function percent() {
+             display.value += "%";  
+        } 
+        
+        function dot() {
+             display.value += ".";
+        } 
+        
+        function tzer() {
+             display.value += "00";
+        } 
+        
+        function plu() {
+             display.value += "+";
+        } 
+        
+        function sub() {
+             display.value += "-";
+        } 
+        
+        function mul() {
+             display.value += "*";
+        } 
+        
+        function thr() {
+            display.value += 3;
+        } 
+        
+        function one() {
+             display.value += 1;
+        } 
+        
+        function two() {
+             display.value += 2;
+        } 
+        
+        function fou() {
+             display.value += 4;
+        } 
+        
+        function fiv() {
+             display.value += 5;
+        } 
+        
+        function six() {
+             display.value += 6;
+        } 
+        
+        function eig() {
+             display.value += 8;
+        } 
+        
+        function nin() {
+             display.value += 9;
+        } 
+        
+        function zer() {
+             display.value += 0;
+        } 
+        
+        function ans() {
+             display.value = eval(display.value);
+        }
+
+        function ac() {
+             display.value =" ";
+        }
+        function div() {
+             display.value += "/" ;
+        }
+        
+
+
+
+    </script>
+</body>
+
+</html>
